@@ -1,0 +1,39 @@
+body{
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+	font-family: Helvetica;
+		text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.55);
+
+}
+
+
+#container{
+	margin:0 auto;
+	width: 600px;
+}
+
+#canvas{
+	background-color: #fff;
+	font-family: Carre;
+	font-size: 45px;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.55);
+}
+
+#newgame{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.score{
+	display: inline-block;
+	float:right;
+}
+
+
+@font-face {
+font-family: Carre;
+src: url(Carre.otf);
+}
+
+
+
